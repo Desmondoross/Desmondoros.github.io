@@ -21,7 +21,8 @@
           </audio>
         </h1>
     
-        <h1>Я втомився крч трохи, потім допройду сраний урок</h1>
+        <h2>Я втомився крч трохи, потім допройду сраний урок</h2>
+        <h3>Набір всякої фігні</h3>
         <p>Це параграф</p>
         <p>Це теж, <br> але з розривом</p>
 
@@ -32,6 +33,7 @@
         <p><b>Багато</b><strong>Всяких</strong><i>Різних</i><em>Цікавих</em><mark>Приколів</mark></p>
         <p></p><small>Можна</small><del>Робити</del><ins>З тим</ins><sub>Сраним</sub><sup>Текстом</sup></p>
         <p></p><i>А можна <b>навіть спро<mark>бувати зро</mark>би</b>ти<mark> о<b>С</b>ь</mark> так</i><p></p>
+        <h3>Бавимось з відступами</h3>
     </div>
     <table>
         <tr>
@@ -53,9 +55,11 @@
       <div class="container"><p>↓ Відступ до кінця фото ↓<i>&#40масштабуй - не масштабуй, все одно получиш...&#41</i></p></div>
 </div>
 
+<h3>Кнопки ↓</h3>
+<p><button type="button" onclick="alert('You clicked me! 1')">Click Me! 1</button><button type="button" onclick="alert('You clicked me! 2')">Click Me! 2</button><button type="button" onclick="alert('You clicked me! 3')">Click Me! 3</button><button type="button" onclick="alert('You clicked me! 4')">Click Me! 4</button><button type="button" onclick="alert('You clicked me!' 5)">Click Me! 5</button></p>
 
-
-  <table>
+<h3>Табличка (множення) ↓</h3>
+  <table style="width: 40%;">
     <tr>
       <td>1</td>
       <td>2</td>
@@ -74,6 +78,15 @@
   </table>
 
   <p>Локальна картинка</p><img src="assets/images/photo_2024-02-15_19-08-20.jpg" width="200" height="200">
+
+  <form action="/submit_form" method="post">
+    <label for="fname">Ім'я:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Прізвище:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Надіслати">
+  </form> 
+  
 
 </body>
 </html>

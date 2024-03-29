@@ -20,6 +20,18 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+h1 {
+    color: turquoise;
+}
+
+h2 {
+    color: aqua;
+}
+
+h3 {
+    color: aquamarine;
+}
+
 /* Container */
 .container {
     width: 100%;
@@ -27,6 +39,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+  }
 
 /* Intro */
 .intro {
